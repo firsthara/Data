@@ -1,0 +1,950 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="10.5">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\SAT_Results.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>SAT_Results.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="DBN" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\SAT_Results.csv" type="V_String" />
+            <Field name="SCHOOL NAME" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\SAT_Results.csv" type="V_String" />
+            <Field name="Num of SAT Test Takers" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\SAT_Results.csv" type="V_String" />
+            <Field name="SAT Critical Reading Avg. Score" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\SAT_Results.csv" type="V_String" />
+            <Field name="SAT Math Avg. Score" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\SAT_Results.csv" type="V_String" />
+            <Field name="SAT Writing Avg. Score" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\SAT_Results.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>School_Demographics_and_Accountability_Snapshot_2006-2012.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="DBN" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" />
+            <Field name="Name" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" />
+            <Field name="schoolyear" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" />
+            <Field name="fl_percent" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" />
+            <Field name="frl_percent" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" />
+            <Field name="total_enrollment" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" />
+            <Field name="prek" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" />
+            <Field name="k" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" />
+            <Field name="grade1" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" />
+            <Field name="grade2" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" />
+            <Field name="grade3" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" />
+            <Field name="grade4" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" />
+            <Field name="grade5" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" />
+            <Field name="grade6" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" />
+            <Field name="grade7" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" />
+            <Field name="grade8" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" />
+            <Field name="grade9" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" />
+            <Field name="grade10" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" />
+            <Field name="grade11" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" />
+            <Field name="grade12" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" />
+            <Field name="ell_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" />
+            <Field name="ell_percent" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" />
+            <Field name="sped_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" />
+            <Field name="sped_percent" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" />
+            <Field name="ctt_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" />
+            <Field name="selfcontained_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" />
+            <Field name="asian_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" />
+            <Field name="asian_per" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" />
+            <Field name="black_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" />
+            <Field name="black_per" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" />
+            <Field name="hispanic_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" />
+            <Field name="hispanic_per" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" />
+            <Field name="white_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" />
+            <Field name="white_per" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" />
+            <Field name="male_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" />
+            <Field name="male_per" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" />
+            <Field name="female_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" />
+            <Field name="female_per" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="246" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>schoolyear</Field>
+            <Operator>=</Operator>
+            <Operands>
+              <Operand>20092010</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[schoolyear] = "20092010"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="342" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="DBN" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="DBN" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Right_DBN" selected="True" rename="Right_DBN" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="498" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <AutoResetMode>Custom</AutoResetMode>
+          <MultiMetaInfo>
+            <MetaInfo name="#1">
+              <RecordInfo>
+                <Field name="DBN" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\SAT_Results.csv" type="V_String" column="1" />
+                <Field name="SCHOOL NAME" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\SAT_Results.csv" type="V_String" column="2" />
+                <Field name="Num of SAT Test Takers" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\SAT_Results.csv" type="V_String" column="3" />
+                <Field name="SAT Critical Reading Avg. Score" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\SAT_Results.csv" type="V_String" column="4" />
+                <Field name="SAT Math Avg. Score" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\SAT_Results.csv" type="V_String" column="5" />
+                <Field name="SAT Writing Avg. Score" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\SAT_Results.csv" type="V_String" column="6" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo name="#2">
+              <RecordInfo>
+                <Field name="DBN" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\SAT_Results.csv" type="V_String" column="1" />
+                <Field name="SCHOOL NAME" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\SAT_Results.csv" type="V_String" column="2" />
+                <Field name="Num of SAT Test Takers" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\SAT_Results.csv" type="V_String" column="3" />
+                <Field name="SAT Critical Reading Avg. Score" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\SAT_Results.csv" type="V_String" column="4" />
+                <Field name="SAT Math Avg. Score" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\SAT_Results.csv" type="V_String" column="5" />
+                <Field name="SAT Writing Avg. Score" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\SAT_Results.csv" type="V_String" column="6" />
+                <Field name="Right_DBN" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="7" />
+                <Field name="Name" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="8" />
+                <Field name="schoolyear" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="9" />
+                <Field name="fl_percent" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="10" />
+                <Field name="frl_percent" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="11" />
+                <Field name="total_enrollment" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="12" />
+                <Field name="prek" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="13" />
+                <Field name="k" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="14" />
+                <Field name="grade1" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="15" />
+                <Field name="grade2" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="16" />
+                <Field name="grade3" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="17" />
+                <Field name="grade4" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="18" />
+                <Field name="grade5" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="19" />
+                <Field name="grade6" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="20" />
+                <Field name="grade7" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="21" />
+                <Field name="grade8" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="22" />
+                <Field name="grade9" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="23" />
+                <Field name="grade10" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="24" />
+                <Field name="grade11" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="25" />
+                <Field name="grade12" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="26" />
+                <Field name="ell_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="27" />
+                <Field name="ell_percent" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="28" />
+                <Field name="sped_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="29" />
+                <Field name="sped_percent" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="30" />
+                <Field name="ctt_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="31" />
+                <Field name="selfcontained_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="32" />
+                <Field name="asian_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="33" />
+                <Field name="asian_per" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="34" />
+                <Field name="black_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="35" />
+                <Field name="black_per" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="36" />
+                <Field name="hispanic_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="37" />
+                <Field name="hispanic_per" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="38" />
+                <Field name="white_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="39" />
+                <Field name="white_per" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="40" />
+                <Field name="male_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="41" />
+                <Field name="male_per" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="42" />
+                <Field name="female_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="43" />
+                <Field name="female_per" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="44" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo name="#3">
+              <RecordInfo>
+                <Field name="DBN" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="1" />
+                <Field name="Name" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="2" />
+                <Field name="schoolyear" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="9" />
+                <Field name="fl_percent" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="10" />
+                <Field name="frl_percent" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="11" />
+                <Field name="total_enrollment" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="12" />
+                <Field name="prek" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="13" />
+                <Field name="k" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="14" />
+                <Field name="grade1" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="15" />
+                <Field name="grade2" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="16" />
+                <Field name="grade3" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="17" />
+                <Field name="grade4" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="18" />
+                <Field name="grade5" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="19" />
+                <Field name="grade6" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="20" />
+                <Field name="grade7" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="21" />
+                <Field name="grade8" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="22" />
+                <Field name="grade9" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="23" />
+                <Field name="grade10" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="24" />
+                <Field name="grade11" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="25" />
+                <Field name="grade12" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="26" />
+                <Field name="ell_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="27" />
+                <Field name="ell_percent" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="28" />
+                <Field name="sped_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="29" />
+                <Field name="sped_percent" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="30" />
+                <Field name="ctt_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="31" />
+                <Field name="selfcontained_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="32" />
+                <Field name="asian_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="33" />
+                <Field name="asian_per" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="34" />
+                <Field name="black_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="35" />
+                <Field name="black_per" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="36" />
+                <Field name="hispanic_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="37" />
+                <Field name="hispanic_per" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="38" />
+                <Field name="white_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="39" />
+                <Field name="white_per" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="40" />
+                <Field name="male_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="41" />
+                <Field name="male_per" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="42" />
+                <Field name="female_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="43" />
+                <Field name="female_per" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="44" />
+              </RecordInfo>
+            </MetaInfo>
+          </MultiMetaInfo>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ManualDelayed</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="630" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="DBN" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="ATS_CODE" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Left_Right_DBN" selected="True" rename="Left_Right_DBN" />
+                <SelectField field="Right_DBN" selected="True" rename="Right_DBN" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="726" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\NHara\AppData\Local\Temp\Engine_11452_e07da017f3eb4ae7a4e703a4a89f3621_\Engine_22512_c1187abdf3a3424582f8fd185e8c2c6e_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="726" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\NHara\AppData\Local\Temp\Engine_11452_e07da017f3eb4ae7a4e703a4a89f3621_\Engine_22512_bfde594d4d4242f4936986a8f6e8a6c8_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="726" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\NHara\AppData\Local\Temp\Engine_11452_e07da017f3eb4ae7a4e703a4a89f3621_\Engine_22512_1c1853e149b34c428029fb4dfbe72939_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="2" SearchSubDirs="False" RecordLimit="">C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\Public_School_Locations\Public_Schools_Points_2011-2012A.dbf</File>
+          <FormatSpecificOptions>
+            <AllStrings>False</AllStrings>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Public_Schools_Points_2011-2012A.dbf</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ATS_CODE" size="26" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\Public_School_Locations\Public_Schools_Points_2011-2012A.dbf" type="V_WString" />
+            <Field name="BORO" size="20" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\Public_School_Locations\Public_Schools_Points_2011-2012A.dbf" type="V_WString" />
+            <Field name="BORONUM" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\Public_School_Locations\Public_Schools_Points_2011-2012A.dbf" type="Int64" />
+            <Field name="LOC_CODE" size="13" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\Public_School_Locations\Public_Schools_Points_2011-2012A.dbf" type="WString" />
+            <Field name="SCHOOLNAME" size="61" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\Public_School_Locations\Public_Schools_Points_2011-2012A.dbf" type="V_WString" />
+            <Field name="SCH_TYPE" size="31" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\Public_School_Locations\Public_Schools_Points_2011-2012A.dbf" type="V_WString" />
+            <Field name="MANAGED_BY" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\Public_School_Locations\Public_Schools_Points_2011-2012A.dbf" type="Int64" />
+            <Field name="GEO_DISTRI" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\Public_School_Locations\Public_Schools_Points_2011-2012A.dbf" type="Int32" />
+            <Field name="ADMIN_DIST" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\Public_School_Locations\Public_Schools_Points_2011-2012A.dbf" type="Int64" />
+            <Field name="ADDRESS" size="37" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\Public_School_Locations\Public_Schools_Points_2011-2012A.dbf" type="V_WString" />
+            <Field name="STATE_CODE" size="13" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\Public_School_Locations\Public_Schools_Points_2011-2012A.dbf" type="WString" />
+            <Field name="ZIP" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\Public_School_Locations\Public_Schools_Points_2011-2012A.dbf" type="Int32" />
+            <Field name="PRINCIPAL" size="27" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\Public_School_Locations\Public_Schools_Points_2011-2012A.dbf" type="V_WString" />
+            <Field name="PRIN_PH" size="24" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\Public_School_Locations\Public_Schools_Points_2011-2012A.dbf" type="V_WString" />
+            <Field name="FAX" size="13" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\Public_School_Locations\Public_Schools_Points_2011-2012A.dbf" type="WString" />
+            <Field name="GRADES" size="70" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\Public_School_Locations\Public_Schools_Points_2011-2012A.dbf" type="V_WString" />
+            <Field name="City" size="50" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\Public_School_Locations\Public_Schools_Points_2011-2012A.dbf" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="822" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <AutoResetMode>ByName</AutoResetMode>
+          <MultiMetaInfo>
+            <MetaInfo name="#1">
+              <RecordInfo>
+                <Field name="DBN" size="254" source="File: (Multiple Sources)" type="V_String" column="1" />
+                <Field name="SCHOOL NAME" size="254" source="File: (Multiple Sources)" type="V_String" column="2" />
+                <Field name="Num of SAT Test Takers" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\SAT_Results.csv" type="V_String" column="3" />
+                <Field name="SAT Critical Reading Avg. Score" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\SAT_Results.csv" type="V_String" column="4" />
+                <Field name="SAT Math Avg. Score" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\SAT_Results.csv" type="V_String" column="5" />
+                <Field name="SAT Writing Avg. Score" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\SAT_Results.csv" type="V_String" column="6" />
+                <Field name="Left_Right_DBN" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="7" />
+                <Field name="Name" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="8" />
+                <Field name="schoolyear" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="9" />
+                <Field name="fl_percent" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="10" />
+                <Field name="frl_percent" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="11" />
+                <Field name="total_enrollment" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="12" />
+                <Field name="prek" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="13" />
+                <Field name="k" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="14" />
+                <Field name="grade1" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="15" />
+                <Field name="grade2" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="16" />
+                <Field name="grade3" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="17" />
+                <Field name="grade4" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="18" />
+                <Field name="grade5" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="19" />
+                <Field name="grade6" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="20" />
+                <Field name="grade7" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="21" />
+                <Field name="grade8" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="22" />
+                <Field name="grade9" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="23" />
+                <Field name="grade10" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="24" />
+                <Field name="grade11" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="25" />
+                <Field name="grade12" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="26" />
+                <Field name="ell_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="27" />
+                <Field name="ell_percent" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="28" />
+                <Field name="sped_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="29" />
+                <Field name="sped_percent" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="30" />
+                <Field name="ctt_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="31" />
+                <Field name="selfcontained_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="32" />
+                <Field name="asian_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="33" />
+                <Field name="asian_per" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="34" />
+                <Field name="black_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="35" />
+                <Field name="black_per" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="36" />
+                <Field name="hispanic_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="37" />
+                <Field name="hispanic_per" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="38" />
+                <Field name="white_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="39" />
+                <Field name="white_per" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="40" />
+                <Field name="male_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="41" />
+                <Field name="male_per" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="42" />
+                <Field name="female_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="43" />
+                <Field name="female_per" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="44" />
+                <Field name="ATS_CODE" size="26" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\Public_School_Locations\Public_Schools_Points_2011-2012A.dbf" type="V_WString" column="45" />
+                <Field name="BORO" size="20" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\Public_School_Locations\Public_Schools_Points_2011-2012A.dbf" type="V_WString" column="46" />
+                <Field name="BORONUM" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\Public_School_Locations\Public_Schools_Points_2011-2012A.dbf" type="Int64" column="47" />
+                <Field name="LOC_CODE" size="13" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\Public_School_Locations\Public_Schools_Points_2011-2012A.dbf" type="WString" column="48" />
+                <Field name="SCHOOLNAME" size="61" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\Public_School_Locations\Public_Schools_Points_2011-2012A.dbf" type="V_WString" column="49" />
+                <Field name="SCH_TYPE" size="31" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\Public_School_Locations\Public_Schools_Points_2011-2012A.dbf" type="V_WString" column="50" />
+                <Field name="MANAGED_BY" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\Public_School_Locations\Public_Schools_Points_2011-2012A.dbf" type="Int64" column="51" />
+                <Field name="GEO_DISTRI" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\Public_School_Locations\Public_Schools_Points_2011-2012A.dbf" type="Int32" column="52" />
+                <Field name="ADMIN_DIST" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\Public_School_Locations\Public_Schools_Points_2011-2012A.dbf" type="Int64" column="53" />
+                <Field name="ADDRESS" size="37" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\Public_School_Locations\Public_Schools_Points_2011-2012A.dbf" type="V_WString" column="54" />
+                <Field name="STATE_CODE" size="13" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\Public_School_Locations\Public_Schools_Points_2011-2012A.dbf" type="WString" column="55" />
+                <Field name="ZIP" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\Public_School_Locations\Public_Schools_Points_2011-2012A.dbf" type="Int32" column="56" />
+                <Field name="PRINCIPAL" size="27" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\Public_School_Locations\Public_Schools_Points_2011-2012A.dbf" type="V_WString" column="57" />
+                <Field name="PRIN_PH" size="24" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\Public_School_Locations\Public_Schools_Points_2011-2012A.dbf" type="V_WString" column="58" />
+                <Field name="FAX" size="13" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\Public_School_Locations\Public_Schools_Points_2011-2012A.dbf" type="WString" column="59" />
+                <Field name="GRADES" size="70" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\Public_School_Locations\Public_Schools_Points_2011-2012A.dbf" type="V_WString" column="60" />
+                <Field name="City" size="50" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\Public_School_Locations\Public_Schools_Points_2011-2012A.dbf" type="V_WString" column="61" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo name="#2">
+              <RecordInfo>
+                <Field name="DBN" size="254" source="File: (Multiple Sources)" type="V_String" column="1" />
+                <Field name="SCHOOL NAME" size="254" source="File: (Multiple Sources)" type="V_String" column="2" />
+                <Field name="Num of SAT Test Takers" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\SAT_Results.csv" type="V_String" column="3" />
+                <Field name="SAT Critical Reading Avg. Score" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\SAT_Results.csv" type="V_String" column="4" />
+                <Field name="SAT Math Avg. Score" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\SAT_Results.csv" type="V_String" column="5" />
+                <Field name="SAT Writing Avg. Score" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\SAT_Results.csv" type="V_String" column="6" />
+                <Field name="Name" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="8" />
+                <Field name="schoolyear" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="9" />
+                <Field name="fl_percent" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="10" />
+                <Field name="frl_percent" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="11" />
+                <Field name="total_enrollment" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="12" />
+                <Field name="prek" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="13" />
+                <Field name="k" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="14" />
+                <Field name="grade1" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="15" />
+                <Field name="grade2" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="16" />
+                <Field name="grade3" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="17" />
+                <Field name="grade4" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="18" />
+                <Field name="grade5" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="19" />
+                <Field name="grade6" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="20" />
+                <Field name="grade7" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="21" />
+                <Field name="grade8" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="22" />
+                <Field name="grade9" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="23" />
+                <Field name="grade10" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="24" />
+                <Field name="grade11" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="25" />
+                <Field name="grade12" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="26" />
+                <Field name="ell_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="27" />
+                <Field name="ell_percent" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="28" />
+                <Field name="sped_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="29" />
+                <Field name="sped_percent" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="30" />
+                <Field name="ctt_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="31" />
+                <Field name="selfcontained_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="32" />
+                <Field name="asian_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="33" />
+                <Field name="asian_per" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="34" />
+                <Field name="black_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="35" />
+                <Field name="black_per" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="36" />
+                <Field name="hispanic_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="37" />
+                <Field name="hispanic_per" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="38" />
+                <Field name="white_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="39" />
+                <Field name="white_per" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="40" />
+                <Field name="male_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="41" />
+                <Field name="male_per" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="42" />
+                <Field name="female_num" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="43" />
+                <Field name="female_per" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="44" />
+                <Field name="Right_DBN" size="254" source="File: C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\School_Demographics_and_Accountability_Snapshot_2006-2012.csv" type="V_String" column="62" />
+              </RecordInfo>
+            </MetaInfo>
+          </MultiMetaInfo>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ManualDelayed</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="954" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="42" MaxRecords="">C:\Users\NHara\OneDrive\Tableau\2017\NYC Segregation\NYC SAT and District Demographics.tde</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>NYC SAT and District Demographics.tde</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="894" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <SelectFields>
+            <SelectField field="ADDRESS" selected="False" />
+            <SelectField field="ADMIN_DIST" selected="True" />
+            <SelectField field="asian_num" selected="True" />
+            <SelectField field="asian_per" selected="True" />
+            <SelectField field="ATS_CODE" selected="False" />
+            <SelectField field="black_num" selected="True" />
+            <SelectField field="black_per" selected="True" />
+            <SelectField field="BORO" selected="True" />
+            <SelectField field="BORONUM" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="ctt_num" selected="True" />
+            <SelectField field="DBN" selected="True" />
+            <SelectField field="ell_num" selected="True" />
+            <SelectField field="ell_percent" selected="True" />
+            <SelectField field="FAX" selected="False" />
+            <SelectField field="female_num" selected="True" />
+            <SelectField field="female_per" selected="True" />
+            <SelectField field="fl_percent" selected="True" />
+            <SelectField field="frl_percent" selected="True" />
+            <SelectField field="GEO_DISTRI" selected="True" />
+            <SelectField field="grade1" selected="True" />
+            <SelectField field="grade10" selected="True" />
+            <SelectField field="grade11" selected="True" />
+            <SelectField field="grade12" selected="True" />
+            <SelectField field="grade2" selected="True" />
+            <SelectField field="grade3" selected="True" />
+            <SelectField field="grade4" selected="True" />
+            <SelectField field="grade5" selected="True" />
+            <SelectField field="grade6" selected="True" />
+            <SelectField field="grade7" selected="True" />
+            <SelectField field="grade8" selected="True" />
+            <SelectField field="grade9" selected="True" />
+            <SelectField field="GRADES" selected="True" />
+            <SelectField field="hispanic_num" selected="True" />
+            <SelectField field="hispanic_per" selected="True" />
+            <SelectField field="k" selected="True" />
+            <SelectField field="Left_Right_DBN" selected="False" />
+            <SelectField field="LOC_CODE" selected="True" />
+            <SelectField field="male_num" selected="True" />
+            <SelectField field="male_per" selected="True" />
+            <SelectField field="MANAGED_BY" selected="False" />
+            <SelectField field="Name" selected="False" />
+            <SelectField field="Num of SAT Test Takers" selected="True" />
+            <SelectField field="prek" selected="True" />
+            <SelectField field="PRIN_PH" selected="False" />
+            <SelectField field="PRINCIPAL" selected="False" />
+            <SelectField field="Right_DBN" selected="False" />
+            <SelectField field="SAT Critical Reading Avg. Score" selected="True" />
+            <SelectField field="SAT Math Avg. Score" selected="True" />
+            <SelectField field="SAT Writing Avg. Score" selected="True" />
+            <SelectField field="SCH_TYPE" selected="True" />
+            <SelectField field="SCHOOL NAME" selected="True" />
+            <SelectField field="SCHOOLNAME" selected="False" />
+            <SelectField field="schoolyear" selected="False" />
+            <SelectField field="selfcontained_num" selected="True" />
+            <SelectField field="sped_num" selected="True" />
+            <SelectField field="sped_percent" selected="True" />
+            <SelectField field="STATE_CODE" selected="True" />
+            <SelectField field="total_enrollment" selected="True" />
+            <SelectField field="white_num" selected="True" />
+            <SelectField field="white_per" selected="True" />
+            <SelectField field="ZIP" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="438" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\NHara\AppData\Local\Temp\Engine_11452_e07da017f3eb4ae7a4e703a4a89f3621_\Engine_22512_9610cae43f164869bc0a687992a252cc_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="438" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\NHara\AppData\Local\Temp\Engine_11452_e07da017f3eb4ae7a4e703a4a89f3621_\Engine_22512_518b6af2aaa64961ae3daa7e2e343e3a_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="438" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\NHara\AppData\Local\Temp\Engine_11452_e07da017f3eb4ae7a4e703a4a89f3621_\Engine_22512_ae2fe1039d9f4957aab12329aae311d9_.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="438" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\NHara\AppData\Local\Temp\Engine_11452_e07da017f3eb4ae7a4e703a4a89f3621_\Engine_22512_1171bec33bc14b98a64ab611768d6df7_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="990" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\NHara\AppData\Local\Temp\Engine_11452_e07da017f3eb4ae7a4e703a4a89f3621_\Engine_22512_302ef9e4909d475e81271f6cc4c67926_.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="126" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="ATS_CODE" type="V_WString" size="26" expression="Left([ATS_CODE],6)" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ATS_CODE=Left([ATS_CODE],6)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="150" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="DBN" type="V_String" size="254" expression="Left([DBN],6)" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DBN=Left([DBN],6)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="198" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="DBN" type="V_String" size="254" expression="Left([DBN],6)" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DBN=Left([DBN],6)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="True" />
+      <Destination ToolID="14" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="14" Connection="Left" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="14" Connection="Left" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="14" Connection="Join" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="14" Connection="Right" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Left" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Join" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Right" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="24" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="24" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Left" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Join" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Right" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="24" Connection="Join" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="24" Connection="Left" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>School Workflow1</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
